@@ -14,8 +14,8 @@ spec:
         app: flask-app
     spec:
       containers:
-      - name: flask-app
-        image: tambeminal/flask-web-app:latest
-        ports:
-        - containerPort: 5000
-
+        - name: flask-app
+          image: tambeminal/flask-app:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5000
