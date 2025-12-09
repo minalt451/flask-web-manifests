@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: tambeminal/flask-app:8
+          image: tambeminal/flask-app:9
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
